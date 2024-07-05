@@ -27,3 +27,12 @@
   border-radius: 7px;
   
 }
+button a {
+  background-color: rgb(98, 98, 229);
+  color: white;
+  font-size: 22px;
+  padding: 8px;
+border-radius: 10px;
+text-decoration: none;
+}
+
