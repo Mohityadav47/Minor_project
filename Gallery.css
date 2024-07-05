@@ -1,0 +1,16 @@
+.mimg{
+    display: flex;
+justify-content: space-around;
+align-items: center;
+gap: -190px;
+}
+img{
+    width: 200px;
+    height: 209px;
+}
+@media only screen and (max-width:600px) {
+
+    .mimg{
+        flex-direction: column;
+    }
+}

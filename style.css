@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+body{
+	margin: 0 auto;
+	background-image: url(imges-65.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.signup-form{
+	    width: 325px;
+		padding: 25px;
+		text-align: center;
+		background: rgb(101, 102, 114,0.7);
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		overflow:hidden;
+		border-radius: 18px;
+
+
+}
+
+.signup-form img{
+	width: 50%;
+	height: 50%;
+	border-radius: 75px;
+
+}
+.signup-form input{
+
+
+	display: block;
+width: 90%;
+
+padding-left: 10px;
+
+height: 44px;
+box-sizing: border-box;
+outline: none;
+border: none;
+font-family: 'Ubuntu', sans-serif;
+
+font-size: 14px;
+
+margin: 6%;
+border-radius: 10px;
+}
+.txt{
+
+	margin: 20px 0px;
+	border-radius: 05px;
+}
+
+
+
+
+
+
+.btn{
+
+	margin-top: 60px;
+
+	margin-bottom: 20px;
+	background: #0fa5e0;
+
+	color: #fff;
+	border-radius: 40px;
+	cursor: pointer;
+	transition: 0.8s;
+
+}
+.btn :hover{
+	transform: scale(0.96);
+}
+
+.signup-form a{
+
+	text-decoration: none;
+color :rgb(253, 238, 214);
+font-family: 'Ubuntu', sans-serif;
+padding: 10px;
+
+transition: 0.8s;
+display: block;
+
+
+
+}
+.signup-form a:hover{
+
+	background: rgba(1, 2, 14, 0.7);
+
+	color: black;
+}
+
+body{
+	margin: 0 auto;
+	background-image: url("../image/technology.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 720px;
+}
+
+.container{
+	width: 500px;
+	height: 450px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: rgba(44, 62, 80,0.7);
+	margin-top: 160px;
+}
+
+.container img{
+	width: 150px;
+	height: 150px;
+	margin-top: -60px;
+}
+
+input[type="text"],input[type="password"]{
+	margin-top: 30px;
+	height: 45px;
+	width: 300px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	padding-left: 40px;
+}
+
+.form-input::before{
+	content: "\f007";
+	font-family: "FontAwesome";
+	padding-left: 07px;
+	padding-top: 40px;
+	position: absolute;
+	font-size: 35px;
+	color: #2980b9; 
+}
+
+.form-input:nth-child(2)::before{
+	content: "\f023";
+}
+
+.btn-login{
+	padding: 15px 25px;
+	border: none;
+	background-color: #27ae60;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
